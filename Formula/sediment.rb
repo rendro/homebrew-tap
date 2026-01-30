@@ -6,18 +6,18 @@ class Sediment < Formula
   on_macos do
     on_intel do
       url "https://github.com/rendro/sediment/releases/download/v#{version}/sediment-x86_64-apple-darwin.tar.gz"
-      sha256 "59a104f5833649580f9d714b0f1d1a07a1a26ac6293b82deb29aa168fc906763"
+      sha256 "85dc243559ad6fbb48d3a77026e3424fcd9d05727d452b71a841a01e50f08213"
     end
     on_arm do
       url "https://github.com/rendro/sediment/releases/download/v#{version}/sediment-aarch64-apple-darwin.tar.gz"
-      sha256 "5fe8d4b79b3455d56729bf75237a3e865785997aa817e8f2c01ab901cc52c83c"
+      sha256 "64ba23db243e06347de121877dcba9125f5eeb181c602e26377f8aff8eecea5c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/rendro/sediment/releases/download/v#{version}/sediment-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4918f22bf2a54412220756e3b737155d09e2e349754bd866a00fbee279e7a174"
+      sha256 "6a06887637b4480c893614dcf8b2fa5526b9bcc1cc844ce1d7788ab7775770bb"
     end
   end
 
