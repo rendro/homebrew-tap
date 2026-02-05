@@ -1,23 +1,23 @@
 class Sediment < Formula
   desc "Semantic memory for AI agents - local-first, MCP-native"
   homepage "https://github.com/rendro/sediment"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_intel do
       url "https://github.com/rendro/sediment/releases/download/v#{version}/sediment-x86_64-apple-darwin.tar.gz"
-      sha256 "dbc79e6c07e89d2b7815f2bc995623c5d48048ddb3b3c152273a61e9d392aaa0"
+      sha256 "654fa242442345c65f220ae7c78070e420b2ed24fc29824655da7ac055326650"
     end
     on_arm do
       url "https://github.com/rendro/sediment/releases/download/v#{version}/sediment-aarch64-apple-darwin.tar.gz"
-      sha256 "4191f863df823922ab5da1cd92e0a5dafcdeeea9578b91d8d33095c2e6eb8ff3"
+      sha256 "61e5474b9bdc4269a21dd634adb6b7866207e648e8727fe7e069f8424588e870"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/rendro/sediment/releases/download/v#{version}/sediment-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "40a9cf0a84342e1f74d52258240b74d0a62bf08f5c8ac4a22d78720b91a57f36"
+      sha256 "0fe03a9806bcdd261de290d6b6505f594448a9aab53b0ec0e93a0fa284bcaeaf"
     end
   end
 
